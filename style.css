@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #696969 16.62%, #c5c4c4 85.61%);
+    font-family: "Bona Nova SC", serif;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.logo{
+    height: 72px;
+}
+.menu{
+    display: flex;
+    gap: 32px;
+}
+.menu-item{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #636363;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    border-top: 0.4px solid #636363;
+    margin-bottom: 48px;
+}
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.titulo {
+    font-weight: 400;
+    font-size: 64px;
+    color: #474747;
+    
+}
+.subtitulo {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #575656;
+}
+.button{
+    background-color: #474747;
+    width: 185px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #797878;
+    font-size: 24px;
+}
+.camundongo{
+    height: 430px;
+
+}
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #636363;
+}
+.mouse{
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background-color: #2b2929;
+}
+.menu-item:hover{
+    color: #2b2929;
+}
